@@ -1,7 +1,7 @@
 @echo off
 GOTO weiter
 :setenv
-SET "Path=;%~dp0;%~dp0bin\perl;%~dp0bin\apache;%~dp0bin\sendmail;%~dp0bin\webalizer;%Path%"
+SET "Path=;%~dp0;%~dp0bin\OpenSSH;%~dp0bin\perl;%~dp0bin\apache;%~dp0bin\sendmail;%~dp0bin\webalizer;%Path%"
 GOTO :EOF
 :weiter
 IF "%1" EQU "setenv" (
